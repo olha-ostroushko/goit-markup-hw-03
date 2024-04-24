@@ -256,6 +256,7 @@ body {
 .container-footer {
   max-width: 1440px;
   background: #2e2f42;
+  display: flex;
 }
 .page-footer {
 }
