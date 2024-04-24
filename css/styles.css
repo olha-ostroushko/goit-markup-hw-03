@@ -308,11 +308,7 @@ section {
   color: #434455;
 }
 /* ===FOOTER=== */
-.container-footer {
-  max-width: 1440px;
-  background: #2e2f42;
-  height: 312px;
-}
+
 
 .footter-a-p {
   display: block;
@@ -323,7 +319,11 @@ section {
   width: 264px;
   height: 112px;
 }
-
+.container-footer {
+  max-width: 1440px;
+  background: #2e2f42;
+  height: 312px;
+}
 .span-color-white {
   color: #f4f4fd;
 }
