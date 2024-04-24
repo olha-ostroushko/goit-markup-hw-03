@@ -132,10 +132,7 @@ section {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-/* .container-hero { 
-  padding-right: 320px;
-  padding-left: 320px;
-}*/
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -156,7 +153,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   border: none;
   border-radius: 4px;
@@ -226,7 +223,7 @@ section {
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
+  background: #ffffff;
   width: calc((100% - 24 * 3) / 4);
 }
 .team-h3-p {
@@ -308,9 +305,14 @@ section {
   color: #434455;
 }
 /* ===FOOTER=== */
-.container-footer {
+.page-footer {
+  background-color: #2e2f42;
   max-width: 1440px;
-  background: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-footer {
   height: 312px;
 }
 
