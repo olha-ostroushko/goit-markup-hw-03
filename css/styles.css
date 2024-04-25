@@ -143,14 +143,14 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  max-width: 526px;
+  max-width: 496px;
   margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .hero-button {
-  display: flex;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -175,9 +175,12 @@ section {
 .container-benefits {
   display: flex;
 }
+.benefits-title {
+  margin-bottom: 8px;
+}
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -229,7 +232,7 @@ section {
   background: #ffffff;
   width: calc((100% - 24 * 3) / 4);
 }
-.team-h3-p {
+.team-item-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,6 +259,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 /* ===OUR PORTFOLIO=== */
 .section-portfolio {
@@ -271,9 +275,13 @@ section {
   color: #2e2f42;
   text-transform: capitalize;
   width: 218px;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .portfolio-list {
   display: flex;
+  row-gap: 48px;
   gap: 24px;
   flex-wrap: wrap;
 }
@@ -285,7 +293,7 @@ section {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
+
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -299,6 +307,7 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -313,20 +322,20 @@ section {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.container-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   height: 312px;
 }
 
-.footter-a-p {
+.container-footer {
   display: block;
-  padding-top: 100px;
-  padding-bottom: 100px;
   margin-left: 156px;
   margin-right: 1020px;
-  width: 264px;
+  width: 284px;
   height: 112px;
+}
+
+.footter-a-p {
 }
 
 .span-color-white {
