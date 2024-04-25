@@ -175,8 +175,7 @@ section {
 .container-benefits {
   display: flex;
 }
-  
-}
+
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -192,7 +191,9 @@ section {
   width: calc((100% - 24px * 3) / 4);
   height: 104px;
 }
-.benefits-list-title {margin-bottom: 8px;}
+.benefits-list-title {
+  margin-bottom: 8px;
+}
 
 .benefits-list-text {
   font-weight: 400;
@@ -218,7 +219,6 @@ section {
 .team-list {
   display: flex;
   gap: 24px;
- 
 }
 
 .team-list-item {
@@ -286,8 +286,8 @@ section {
 .portfolio-list {
   display: flex;
   row-gap: 48px;
-  gap: 24px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .portfolio-list-item {
   width: calc((100% - 24px * 2) / 3);
@@ -338,8 +338,10 @@ section {
   width: 284px;
   height: 112px;
 }
-.logo-footer {display: inline-block;
-margin-bottom: 16px;}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .span-color-white {
   color: #f4f4fd;
 }
