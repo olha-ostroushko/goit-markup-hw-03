@@ -57,6 +57,9 @@ section {
   padding-bottom: 120px;
 }
 /* ===HEADER=== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .container-page-nav {
   display: flex;
   justify-content: space-between;
@@ -64,12 +67,11 @@ section {
 }
 .page-navigation {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 .menu-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .page-logo {
@@ -80,6 +82,7 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .color-2e2f42 {
   color: #2e2f42;
